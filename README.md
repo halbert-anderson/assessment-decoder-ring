@@ -4,7 +4,13 @@ This Decoder Ring application was created as part of a surprise birthday party p
 three different classic cipher algorithms to encode and decode messages: Caesar Shift, Polybius Square, and Substitution Cipher.
 The project is designed to practice algorithm-building and test-driven development (TDD) skills, as such, the code was more complicated than my prior projects
 and I wrote unit tests for the code to assure that it is working the way it is suppose to.  
- 
+
+## Technologies Used
+  + **JavaScript:** The core programming language used for building the algorithms.
+  + **Node.js:** The JavaScript runtime environment used to execute the project's server-side code and manage dependencies through npm.
+  + **Mocha:** Testing framework for running the unit tests.
+  + **Chai:** Assertion library used for writing test cases.
+    
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -34,11 +40,6 @@ uses the transposed chracters as the key for cipher.
 - Handles edge cases (like wrapping around the alphabet or handling non-alphabetic characters).
 - Tests implemented using TDD with Mocha and Chai.
 
-## Technologies Used
-  + **JavaScript:** The core programming language used for building the algorithms.
-  + **Node.js:** The JavaScript runtime environment used to execute the project's server-side code and manage dependencies through npm.
-  + **Mocha:** Testing framework for running the unit tests.
-  + **Chai:** Assertion library used for writing test cases.
 ## Learning Objectives
 
 This project tests your ability to:
