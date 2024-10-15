@@ -97,6 +97,8 @@ const decoded = substitution("ykrrpik", "plmoknijbuhvygctfxrdzeswaq", false);  /
   + Ignoring capital letters.
   + Wrapping around when shifts go past 'z'.
   + Maintaining spaces and special characters.
+    
+![Ceasar Shift Cipher Screenshot](screenshots/caesarShiftCipher.png)
 
 ### Polybius Square Cipher
 In the Polybius Square Cipher, each letter is represented by its coordinates in a 5x5 grid. The cipher includes:
@@ -106,6 +108,8 @@ In the Polybius Square Cipher, each letter is represented by its coordinates in 
   + Ignoring capital letters.
   + Maintaining spaces and non-alphabetic characters.
 
+![Polybius Square Cipher Screenshot](screenshots/polybiusSquareCipher.png)
+
 ### Substitution Cipher
 The Substitution Cipher replaces each letter in the input with a corresponding letter from a given alphabet. This cipher includes:
 
@@ -113,6 +117,8 @@ The Substitution Cipher replaces each letter in the input with a corresponding l
   + Returning `false` if there are duplicate characters in the alphabet.
   + Maintaining spaces and non-alphabetic characters.
   + Ignoring capital letters.
+
+![Substitution Cipher Screenshot](screenshots/substitutionCipher.png)
 
 ## Testing
 This project follows a Test-Driven Development (TDD) approach. Unit tests are written using Mocha and Chai. To run the tests, use:
