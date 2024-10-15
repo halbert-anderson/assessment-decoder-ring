@@ -8,6 +8,7 @@ and I wrote unit tests for the code to assure that it is working the way it is s
 ## Table of Contents
 
 - [Project Overview](#project-overview)
+- [Technologies Used](#technologies-used)
 - [Learning Objectives](#learning-objectives)
 - [Project Setup](#project-setup)
 - [Usage](#usage)
@@ -16,7 +17,7 @@ and I wrote unit tests for the code to assure that it is working the way it is s
   - [Polybius Square Cipher](#polybius-square-cipher)
   - [Substitution Cipher](#substitution-cipher)
 - [Testing](#testing)
-- [Technologies Used](#technologies-used)
+
 
 ## Project Overview
 
@@ -26,6 +27,11 @@ This project allows encoding and decoding of messages using the following method
 character has a pair of numbers to define it. 
 - **Substitution Cipher** - The Substitution method simply transposes 26 unique characters to the original alphabet and 
 uses the transposed chracters as the key for cipher.
+
+## Technologies Used
+  + **JavaScript:** The core programming language used for building the algorithms.
+  + **Mocha:** Testing framework for running the unit tests.
+  + **Chai:** Assertion library used for writing test cases.
 
 ### Key Features
 - Encodes and decodes messages.
@@ -114,16 +120,11 @@ This project follows a Test-Driven Development (TDD) approach. Unit tests are wr
   ```bash
   npm test
 ```
-
 The tests cover various cases, such as:
 
   + Shifting beyond the end of the alphabet for Caesar Cipher.
   + Encoding and decoding spaces and special characters.
   + Handling duplicate characters in the Substitution Cipher alphabet.
-## Technologies Used
-  + **JavaScript:** The core programming language used for building the algorithms.
-  + **Mocha:** Testing framework for running the unit tests.
-  + **Chai:** Assertion library used for writing test cases.
-    
+
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to submit a pull request.
