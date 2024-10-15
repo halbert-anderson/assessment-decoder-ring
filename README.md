@@ -28,17 +28,16 @@ character has a pair of numbers to define it.
 - **Substitution Cipher** - The Substitution method simply transposes 26 unique characters to the original alphabet and 
 uses the transposed chracters as the key for cipher.
 
-## Technologies Used
-  + **JavaScript:** The core programming language used for building the algorithms.
-  + **Mocha:** Testing framework for running the unit tests.
-  + **Chai:** Assertion library used for writing test cases.
-
 ### Key Features
 - Encodes and decodes messages.
 - Implements the ciphers to maintain spaces and special characters.
 - Handles edge cases (like wrapping around the alphabet or handling non-alphabetic characters).
 - Tests implemented using TDD with Mocha and Chai.
 
+## Technologies Used
+  + **JavaScript:** The core programming language used for building the algorithms.
+  + **Mocha:** Testing framework for running the unit tests.
+  + **Chai:** Assertion library used for writing test cases.
 ## Learning Objectives
 
 This project tests your ability to:
