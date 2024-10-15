@@ -36,6 +36,7 @@ uses the transposed chracters as the key for cipher.
 
 ## Technologies Used
   + **JavaScript:** The core programming language used for building the algorithms.
+  + **Node.js:** The JavaScript runtime environment used to execute the project's server-side code and manage dependencies through npm.
   + **Mocha:** Testing framework for running the unit tests.
   + **Chai:** Assertion library used for writing test cases.
 ## Learning Objectives
@@ -62,7 +63,10 @@ cd decoder-ring
   ```bash
   npm test
   ```
-
+4. To start the application:
+ ```bash
+ npm start
+```
 ## Usage
 You can use this project to encode and decode messages using any of the three ciphers provided.
 
